@@ -1,0 +1,224 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .6s ease;
+    text-decoration: none;
+}
+
+:root {
+    --white: #fff;
+    --orange: #ff4533;
+    --black: #000;
+}
+
+html {
+    font-family: Montserrat, sans-serif;
+    background: #000;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.logo span {
+    color: rgb(255, 0, 0);
+}
+
+nav ul {
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin-left: 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.header {
+    height: 100vh;
+    background: var(--black);
+}
+
+.banner {
+    padding: 0 10%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    color: var(--white);
+    background-image: url('https://i.ibb.co/NTW4VDK/Screenshot-2024-10-14-102438.png');
+    background-size: contain; /* Makes sure the image is not stretched */
+    background-repeat: no-repeat;
+    background-position: 80% center; /* Positioned slightly to the left */
+}
+
+.banner h4 {
+    font-size: 25px;
+    margin: 0;
+}
+.banner h4 span {
+    font-size: 25px;
+    font-weight: 300;
+    color: #ff4533;
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.banner h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.banner h3 span {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ff4533;
+}
+
+.banner p {
+    margin: 15px 600px 40px 0;
+    line-height: 2;
+}
+
+.banner button {
+    background: var(--orange);
+    border: none;
+    outline: none;
+    color: var(--white);
+    padding: 10px 30px;
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-family: Montserrat, sans-serif;
+}
+
+.banner button:hover {
+    transform: translateY(-6px);
+    border: 1px solid var(--white);
+    background: transparent;
+}
+
+/* About */
+
+.about-section {
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    color: var(--white);
+}
+
+.about-text h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+}
+
+.about-text h2 span {
+    color: var(--orange);
+}
+
+.about-text p {
+    line-height: 2;
+    margin: 3% 0;
+}
+
+.about-text a {
+    background: var(--orange);
+    padding: 10px 30px;
+    color: var(--white);
+    display: inline-block;
+    border-radius: 50px;
+}
+/* skills */
+
+.sectiom-header{
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 80px;
+}
+.section-header h2{
+    font-size: 70px;
+    font-family: bebas neue;
+    color: #fff;
+    text-align: center;
+}
+.section-header h2 span{
+    color: var(--orange);
+}
+.section-header p {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.skill-content{
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    color: var(--white);
+}
+.skill-content h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.d-box{
+    width: 500px;
+    height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.d{ 
+    width: 500px;
+    height: 100%;
+    background: var(--orange);
+    border-radius: 10px 0 0 10px;
+}
+
+/* quote */
+
+.quote-area{
+    background: var(--orange);
+    color: var(--white);
+}
+.q-content p{
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.7;
+}
